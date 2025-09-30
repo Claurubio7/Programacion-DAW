@@ -11,7 +11,7 @@ public class Actividad2 {
         c=teclado.nextInt();
         double x1=0,x2=0;
         //Calcular el discriminante
-        double discriminante=Math.pow(b,2)-4*a1*c;
+        double discriminante=Math.pow(b,2)-4*a*c;
 
         if (discriminante <0){
             System.out.println("No hay soluciones");

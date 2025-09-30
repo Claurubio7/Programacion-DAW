@@ -18,7 +18,8 @@ public class Actividad4 {
                 System.out.println("Fecha incorrecta");
             }
         }
-        else if(mes==4 || mes==6 || mes==9 || mes==11){//MEses de 30 días
+        
+        else if(mes==4 || mes==6 || mes==9 || mes==11){//Meses de 30 días
             if(dia>=1 && dia<=30){
                 System.out.println("Fecha correcta");
             }
@@ -26,6 +27,7 @@ public class Actividad4 {
                 System.out.println("Fecha incorrecta");
             }
         }
+
         else if(mes==2){//Caso febrero
             if(dia>=1 && dia<=28){
                 System.out.println("Fecha correcta");

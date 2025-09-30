@@ -29,7 +29,8 @@ public class Condicional {
         // }
 
 
-        /*
+        /*Condicionales anidadas
+
          * Si numero%2=0 entonces
          *  Si numero%3=0 entonces
          *      escribe Es divisible por 2 y 3;
@@ -47,6 +48,7 @@ public class Condicional {
         //     }
         // }
 
+        
         //Solicita un número e indica el nombre del mes correspondiente
         //Código para ver la diferencia de uso de if-else con switch
         Scanner teclado=new Scanner(System.in);

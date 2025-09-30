@@ -1,11 +1,10 @@
-
 import java.util.Scanner;
 
 public class Actividad3 {
     public static void main(String[] args) {
         //Introdue la nota
         Scanner teclado=new Scanner(System.in);
-        System.out.println("Introduce la nota: ");
+        System.out.print("Introduce la nota: ");
         int nota=teclado.nextInt();
 
         if(nota>=0 && nota <5){

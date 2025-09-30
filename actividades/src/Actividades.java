@@ -11,6 +11,7 @@ public class Actividades {
          *      Imprimir cociente, media, potencia y raiz de cada número
          * fin_programa
          */
+        
         //Generar números
         int min=1, max=10;
         int numero1=(int)(Math.random()*(max-min+1))+min;
