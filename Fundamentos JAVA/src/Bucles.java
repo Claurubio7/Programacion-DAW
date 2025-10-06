@@ -56,15 +56,33 @@ public class Bucles {
         //     j++;
         // }
          
-        //Se repite hasta que se meta el contenido correcto
-        Scanner sc = new Scanner(System.in);
-        int numero = 0;
-        do{
-            System.out.print("Escribe un número entre 1 y 5: ");
-            numero = sc.nextInt();
-        }while(numero<1||numero>5);
+        // //Se repite hasta que se meta el contenido correcto
+        // Scanner sc = new Scanner(System.in);
+        // int numero = 0;
+        // do{
+        //     System.out.print("Escribe un número entre 1 y 5: ");
+        //     numero = sc.nextInt();
+        // }while(numero<1||numero>5);
        
 
+        //BUCLES ANIDADOS
+        //  for (int i=1;i<=4;i++){
+        //     if (i%2==0) {
+        //     for(int j=4;j>=i;j--){
+        //             System.out.print("*");
+        //         }                
+        //     }
+        //     System.out.println("");
+        // }
+
+        for (int i=1;i<=10;i++){
+            for(int j=1;j<=12;j++){
+                
+                    System.out.println(i+"*"+j+"= "+(i*j));
+                
+            }
+            System.out.println("");
+        }
         
     }
 }
