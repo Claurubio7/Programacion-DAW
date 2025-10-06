@@ -5,10 +5,10 @@ public class Actividad4 {
         //Definir variables
         int dia=0, mes=0, anyo=0;
         System.out.println("Introduce día mes año: ");
-        Scanner teclado = new Scanner(System.in);
-        dia=teclado.nextInt();
-        mes=teclado.nextInt();
-        anyo=teclado.nextInt();
+        Scanner sc = new Scanner(System.in);
+        dia=sc.nextInt();
+        mes=sc.nextInt();
+        anyo=sc.nextInt();
 
         if(mes==1 || mes==3 || mes==5 || mes==7 || mes==8 || mes==10 || mes==12){//Meses de 31 días
             if(dia>=1 && dia<=31){

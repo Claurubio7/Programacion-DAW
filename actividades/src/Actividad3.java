@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class Actividad3 {
     public static void main(String[] args) {
         //Introdue la nota
-        Scanner teclado=new Scanner(System.in);
+        Scanner sc=new Scanner(System.in);
         System.out.print("Introduce la nota: ");
-        int nota=teclado.nextInt();
+        int nota=sc.nextInt();
 
         if(nota>=0 && nota <5){
             System.out.println("SUSPENSO");

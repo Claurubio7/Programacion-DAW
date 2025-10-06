@@ -4,11 +4,11 @@ public class Actividad2 {
     public static void main(String[] args) {
         //Resolución de las ecuaciones de segundo grado
         int a=0,b=0,c=0;
-        Scanner teclado = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Introduce los valores de a b c: ");
-        a=teclado.nextInt();  
-        b=teclado.nextInt();
-        c=teclado.nextInt();
+        a=sc.nextInt();  
+        b=sc.nextInt();
+        c=sc.nextInt();
         double x1=0,x2=0;
         //Calcular el discriminante
         double discriminante=Math.pow(b,2)-4*a*c;

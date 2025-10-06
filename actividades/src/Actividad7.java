@@ -9,11 +9,11 @@ public class Actividad7 {
         int contadorPersona=0;
         int suma=0;
         int mayor18=0;
-        Scanner teclado = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         int edad;
         do { 
             System.out.print("Introduce una edad o -1 para salir: ");
-            edad=teclado.nextInt();
+            edad=sc.nextInt();
             if(edad!=-1) contadorPersona++;//Nueva persona
             //Establezco la lógica para máximo y mínimo
             if(edad>maximo){ 

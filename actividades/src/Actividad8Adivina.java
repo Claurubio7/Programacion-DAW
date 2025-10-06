@@ -8,12 +8,12 @@ public class Actividad8Adivina {
         int intentos=0;
         int numero=0;
         boolean encontrado=false;
-        Scanner teclado = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         //Crearemos el bucle para ir viendo lo que el usuario va introduciendo
         do { 
             //Vamos a leer el número
             System.out.print("Introduce un número: ");
-            numero=teclado.nextInt();
+            numero=sc.nextInt();
             if(numero>aleatorio){
                 System.out.println("El número es menor al que has introducido");
             }
