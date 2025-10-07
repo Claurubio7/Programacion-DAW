@@ -16,7 +16,10 @@ public class Actividad11Cilindro {
 
     }
     public static void imprimeCilindro(double altura,double radio){
-        System.out.println("El ÁREA del cilindro es: "+(altura*radio*PI));
-        System.out.println("El VOLUMEN del cilindro es: "+(altura*(radio*radio)*PI));
+        double area = 2 * PI * radio * (radio + altura);
+        double volumen = PI * radio * radio * altura;
+
+        System.out.println("El ÁREA del cilindro es: " + area);
+        System.out.println("El VOLUMEN del cilindro es: " + volumen);
     }
 }
