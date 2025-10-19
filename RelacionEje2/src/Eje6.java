@@ -52,13 +52,13 @@ public class Eje6 {
         sueldoNeto = sueldoBruto - retencion;
 
         System.out.println("----------------------------------------------");
-        System.out.printf("| %-20s %10.2f € |%n", "Sueldo base", sueldoBase);
-        System.out.printf("| %-20s %10.2f € |%n", "Dietas (" + diasViaje + " viajes)", dietas);
+        System.out.printf("| %-20s %10.2f EUR |%n", "Sueldo base", sueldoBase);
+        System.out.printf("| %-20s %10.2f EUR |%n", "Dietas (" + diasViaje + " viajes)", dietas);
         System.out.println("|---------------------------------------------|");
-        System.out.printf("| %-20s %10.2f € |%n", "Sueldo bruto", sueldoBruto);
-        System.out.printf("| %-20s %10.2f € |%n", "Retención IRPF (" + (int)(irpf*100) + "%)", retencion);
+        System.out.printf("| %-20s %10.2f EUR |%n", "Sueldo bruto", sueldoBruto);
+        System.out.printf("| %-20s %10.2f EUR |%n", "Retención IRPF (" + (int)(irpf*100) + "%)", retencion);
         System.out.println("|---------------------------------------------|");
-        System.out.printf("| %-20s %10.2f € |%n", "Sueldo neto", sueldoNeto);
+        System.out.printf("| %-20s %10.2f EUR |%n", "Sueldo neto", sueldoNeto);
         System.out.println("----------------------------------------------");
 
     }

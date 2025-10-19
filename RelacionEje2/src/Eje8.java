@@ -4,10 +4,10 @@ public class Eje8 {
     // mostrar n numeros de Fibonnacci
     
     public static void main(String[] args) {
-        Scanner consola = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         
         System.out.print("Introduce cuantos numeros de Finonacci quieres:");
-        int n = consola.nextInt();
+        int n = sc.nextInt();
         int a  = 0;
         int b = 1;
         int c = 0;
