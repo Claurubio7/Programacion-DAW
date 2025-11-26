@@ -1,8 +1,7 @@
 package matrices;
-
 import java.util.Scanner;
 
-public class Matrices {
+public class Matrices1 {
 
     public static void ImprimeMatriz(int[][] matriz){
         for (int i = 0; i < matriz.length; i++) {
