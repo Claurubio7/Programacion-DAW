@@ -1,7 +1,5 @@
-public class Tipo {
-    enum TipoAtaque {
+public enum Tipo {
         CABALLERO,
         MAGO,
         ORCO
-    }
 }

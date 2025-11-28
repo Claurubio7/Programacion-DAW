@@ -15,13 +15,13 @@ public class Personaje {
     }
 
     public void atacar(Personaje enemigo) {
-        int danio = ataque - enemigo.defensa;
-        if (danio < 0) danio = 0; 
-        enemigo.recibirDanio(danio);
+        int danyo = this.ataque - enemigo.defensa;
+        if (danyo < 0) danyo = 0; 
+        enemigo.recibirDanyo(danyo);
     }
-    public void recibirDanio(int danio) {
-        this.vida -= danio;
-        if (this.vida <= 0) this.vida = 0;
+    public void recibirDanyo(int danyo) {
+        this.vida -= danyo;
+        if (vida <= 0) vida = 0;
     }
     public boolean estaVivo() {
         return this.vida > 0;
@@ -62,9 +62,6 @@ public class Personaje {
     public String toString() {
         return nombre + " (" + tipo + ") Vida:" + vida +
                 " Atq:" + ataque + " Def:" + defensa;
-    }
-
-    public class Tipo {
     }
 
 }
