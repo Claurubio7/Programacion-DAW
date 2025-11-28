@@ -90,7 +90,7 @@ public class Batalla {
                 h.atacar(o);
                 o.atacar(h);
 
-                System.out.println("Después del ataque:");
+                System.out.println("\nDespués del ataque:");
                 System.out.println(h);
                 System.out.println(o);
                 
@@ -131,7 +131,7 @@ public class Batalla {
                 System.out.println(heroes.get(i));
             }
 
-            System.out.println("*** MOSTRAR ORCOS ***");
+            System.out.println("\n*** MOSTRAR ORCOS ***");
             for (int i = 0; i < orcos.size(); i++) {
                 System.out.println(orcos.get(i));
             }
