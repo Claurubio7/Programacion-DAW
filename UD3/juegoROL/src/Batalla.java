@@ -7,6 +7,7 @@ public class Batalla {
     private ArrayList<Personaje> heroes = new ArrayList<>();
     private ArrayList<Personaje> orcos = new ArrayList<>();
     private Scanner sc = new Scanner(System.in);
+    //Random rand = new Random();
 
     public void mostrarMenu() {
          int opcion;
@@ -38,7 +39,7 @@ public class Batalla {
         int t = sc.nextInt();
         sc.nextLine();
 
-         Tipo tipo = switch (t) {
+        Tipo tipo = switch (t) {
             case 1 -> Tipo.CABALLERO;
             case 2 -> Tipo.MAGO;
             default -> Tipo.ORCO;
@@ -82,6 +83,7 @@ public class Batalla {
                 // Elegir aleatoriamente un heroe y un orco
                 Personaje h = heroes.get((int)(Math.random() * heroes.size()));
                 Personaje o = orcos.get((int)(Math.random() * orcos.size()));
+                //Personaje h = heroes.get(rand.nextInt(heroes.size()));
 
                 System.out.println("\n--- ENFRENTAMIENTO ---");
                 System.out.println("Héroe:  " + h);
